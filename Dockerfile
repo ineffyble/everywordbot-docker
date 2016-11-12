@@ -9,6 +9,5 @@ ADD tweet.sh /app/tweet.sh
 RUN chmod +x /app/tweet.sh
 
 ENTRYPOINT ["/app/tweet.sh"]
-CMD [""]
 
 VOLUME /data
